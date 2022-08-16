@@ -5,6 +5,7 @@
     <div
       class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
     >
+      <!-- Responsive close button on mobile view -->
       <button
         class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
         type="button"
@@ -30,6 +31,7 @@
           ></path>
         </svg>
       </button>
+      <!--  -->
       <div
         class="collapse navbar-collapse flex-grow items-center"
         id="navbarSupportedContent"
@@ -45,7 +47,7 @@
             loading="lazy"
           />
         </a>
-        <!-- Left links -->
+        <!-- Left links  -->
         <ul class="navbar-nav flex flex-col px-6 list-style-none ml-auto">
           <li class="nav-item p-2">
             <a
@@ -61,11 +63,19 @@
               >About Us</a
             >
           </li>
-          <li class="nav-item p-2">
+          <li class="nav-item p-2 dropdown relative">
             <a
               class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
               href="#"
               >Our Services</a
+            >
+          </li>
+
+          <li class="nav-item p-2">
+            <a
+              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+              href="#"
+              >Gallery</a
             >
           </li>
           <li class="nav-item p-2">
@@ -179,29 +189,7 @@
           <ul
             class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0"
             aria-labelledby="dropdownMenuButton2"
-          >
-            <li>
-              <a
-                class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                href="#"
-                >Action</a
-              >
-            </li>
-            <li>
-              <a
-                class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                href="#"
-                >Another action</a
-              >
-            </li>
-            <li>
-              <a
-                class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                href="#"
-                >Something else here</a
-              >
-            </li>
-          </ul>
+          ></ul>
         </div>
       </div>
       <!-- Right elements -->
