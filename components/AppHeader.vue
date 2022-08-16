@@ -1,15 +1,15 @@
 <template>
   <nav
-    class="relative w-full flex flex-wrap items-center justify-between py-3 bg-light text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
+    class="relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
   >
     <div
       class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
     >
       <button
-        class="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+        class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent1"
+        data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -32,26 +32,38 @@
       </button>
       <div
         class="collapse navbar-collapse flex-grow items-center"
-        id="navbarSupportedContent1"
+        id="navbarSupportedContent"
       >
-        <a class="text-xl text-white logo pr-2 font-semibold" href="#"
-          >Element Adventures</a
+        <a
+          class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1"
+          href="#"
         >
+          <img
+            src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
+            style="height: 15px"
+            alt=""
+            loading="lazy"
+          />
+        </a>
         <!-- Left links -->
         <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
           <li class="nav-item p-2">
-            <a class="nav-link text-white" href="#">Dashboard</a>
+            <a
+              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+              href="#"
+              >Dashboard</a
+            >
           </li>
           <li class="nav-item p-2">
             <a
-              class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
               href="#"
               >Team</a
             >
           </li>
           <li class="nav-item p-2">
             <a
-              class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
               href="#"
               >Projects</a
             >
@@ -65,7 +77,7 @@
       <div class="flex items-center relative">
         <!-- Icon -->
         <a
-          class="text-white opacity-60 hover:opacity-80 focus:opacity-80 mr-4"
+          class="text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-4"
           href="#"
         >
           <svg
@@ -86,7 +98,7 @@
         </a>
         <div class="dropdown relative">
           <a
-            class="text-white opacity-60 hover:opacity-80 focus:opacity-80 mr-4 dropdown-toggle hidden-arrow flex items-center"
+            class="text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-4 dropdown-toggle hidden-arrow flex items-center"
             href="#"
             id="dropdownMenuButton1"
             role="button"
