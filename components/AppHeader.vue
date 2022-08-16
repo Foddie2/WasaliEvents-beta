@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
+    class="site-header relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
   >
     <div
       class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
@@ -207,6 +207,11 @@ export default {}
 </script>
 
 <style scoped>
-.logo {
+.site-header {
+  @apply sticky top-0 w-full p-4 bg-slate-100 bg-opacity-40 border-b-2 border-white border-opacity-30 backdrop-blur-lg z-20;
+}
+
+.site-header > .wrapper {
+  @apply flex items-center justify-between max-w-6xl m-auto;
 }
 </style>
