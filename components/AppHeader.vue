@@ -46,26 +46,33 @@
           />
         </a>
         <!-- Left links -->
-        <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+        <ul class="navbar-nav flex flex-col px-6 list-style-none ml-auto">
           <li class="nav-item p-2">
             <a
               class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
               href="#"
-              >Dashboard</a
+              >Home</a
             >
           </li>
           <li class="nav-item p-2">
             <a
               class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
               href="#"
-              >Team</a
+              >About Us</a
             >
           </li>
           <li class="nav-item p-2">
             <a
               class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
               href="#"
-              >Projects</a
+              >Our Services</a
+            >
+          </li>
+          <li class="nav-item p-2">
+            <a
+              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+              href="#"
+              >Contact Us</a
             >
           </li>
         </ul>
@@ -209,9 +216,5 @@ export default {}
 <style scoped>
 .site-header {
   @apply sticky top-0 w-full p-4 bg-slate-100 bg-opacity-40 border-b-2 border-white border-opacity-30 backdrop-blur-lg z-20;
-}
-
-.site-header > .wrapper {
-  @apply flex items-center justify-between max-w-6xl m-auto;
 }
 </style>
