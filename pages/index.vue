@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <section class="" style="background-color: #e5e7eb">
+    <AppHeader />
     <div
       id="carouselDarkVariant"
       class="carousel slide carousel-fade carousel-dark relative"
@@ -97,11 +98,13 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
+import AppHeader from '../components/AppHeader.vue'
 export default {
   name: 'IndexPage',
+  components: { AppHeader },
 }
 </script>
