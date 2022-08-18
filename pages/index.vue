@@ -1,5 +1,6 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
-  <section class="" style="background-color: #e5e7eb">
+  <section class="container mx-auto" style="background-color: #e5e7eb">
     <AppHeader />
     <div
       id="carouselDarkVariant"
@@ -98,13 +99,15 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <AboutUs />
   </section>
 </template>
 
 <script>
 import AppHeader from '../components/AppHeader.vue'
+import AboutUs from '~/components/AboutUs.vue'
 export default {
   name: 'IndexPage',
-  components: { AppHeader },
+  components: { AppHeader, AboutUs },
 }
 </script>

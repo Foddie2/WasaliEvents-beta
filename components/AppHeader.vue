@@ -95,7 +95,7 @@
         <!-- Icon -->
         <div class="dropdown relative">
           <a
-            class="text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-4 dropdown-toggle hidden-arrow flex items-center"
+            class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-4 dropdown-toggle hidden-arrow flex items-center"
             href="#"
             id="dropdownMenuButton1"
             role="button"
