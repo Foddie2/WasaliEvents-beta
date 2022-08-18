@@ -30,7 +30,7 @@
       </div>
 
       <!-- Inner -->
-      <div class="carousel-inner relative w-full overflow-hidden">
+      <div class="carousel-inner relative w-full overflow-hidden height: 400px">
         <!-- Single item -->
         <div class="carousel-item active relative float-left w-full">
           <img
