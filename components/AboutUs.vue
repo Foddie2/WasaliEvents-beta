@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="max-w-6xl mx-auto">
     <p class="text-base font-light leading-relaxed mt-0 mb-0 text-gray-800">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
       erat a ante.
