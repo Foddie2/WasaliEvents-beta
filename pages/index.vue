@@ -183,9 +183,9 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <AboutUs />
-        <Blog />
 
+    <Blog />
+    <AboutUs />
   </section>
 </template>
 
