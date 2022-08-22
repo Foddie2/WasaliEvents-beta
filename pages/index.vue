@@ -186,6 +186,7 @@
 
     <Blog />
     <AboutUs />
+    <Footer />
   </section>
 </template>
 
@@ -193,8 +194,9 @@
 import AppHeader from '../components/AppHeader.vue'
 import AboutUs from '~/components/AboutUs.vue'
 import Blog from '~/components/Blog.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   name: 'IndexPage',
-  components: { AppHeader, AboutUs, Blog },
+  components: { AppHeader, AboutUs, Blog, Footer },
 }
 </script>
