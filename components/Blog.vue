@@ -28,7 +28,7 @@
           </a>
           <div>
             <header>
-              <div class="mb-3">
+           <!--    <div class="mb-3">
                 <ul class="flex flex-wrap text-xs font-medium -m-1">
                   <li class="m-1">
                     <a
@@ -45,7 +45,7 @@
                     >
                   </li>
                 </ul>
-              </div>
+              </div> -->
               <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
                 <a
                   class="hover:text-gray-100 transition duration-150 ease-in-out"
@@ -59,8 +59,8 @@
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
               cupidatat.
             </p>
-            <footer class="flex items-center mt-4">
-              <a href="#0">
+            <!-- <footer class="flex items-center mt-4"> -->
+            <!--   <a href="#0">
                 <img
                   class="rounded-full flex-shrink-0 mr-4"
                   src="https://preview.cruip.com/open-pro/images/news-author-04.jpg"
@@ -68,8 +68,8 @@
                   height="40"
                   alt="Author 04"
                 />
-              </a>
-              <div>
+              </a> -->
+            <!--   <div>
                 <a
                   class="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
                   href="#0"
@@ -77,8 +77,8 @@
                 >
                 <span class="text-gray-700"> - </span>
                 <span class="text-gray-500">Jan 19, 2020</span>
-              </div>
-            </footer>
+              </div> -->
+            <!-- </footer> -->
           </div>
         </article>
       </div>
