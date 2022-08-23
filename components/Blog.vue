@@ -59,26 +59,6 @@
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
               cupidatat.
             </p>
-            <!-- <footer class="flex items-center mt-4"> -->
-            <!--   <a href="#0">
-                <img
-                  class="rounded-full flex-shrink-0 mr-4"
-                  src="https://preview.cruip.com/open-pro/images/news-author-04.jpg"
-                  width="40"
-                  height="40"
-                  alt="Author 04"
-                />
-              </a> -->
-            <!--   <div>
-                <a
-                  class="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                  href="#0"
-                  >Chris Solerieu</a
-                >
-                <span class="text-gray-700"> - </span>
-                <span class="text-gray-500">Jan 19, 2020</span>
-              </div> -->
-            <!-- </footer> -->
           </div>
         </article>
       </div>
