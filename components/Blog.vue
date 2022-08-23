@@ -28,24 +28,6 @@
           </a>
           <div>
             <header>
-           <!--    <div class="mb-3">
-                <ul class="flex flex-wrap text-xs font-medium -m-1">
-                  <li class="m-1">
-                    <a
-                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                      href="#0"
-                      >Product</a
-                    >
-                  </li>
-                  <li class="m-1">
-                    <a
-                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                      href="#0"
-                      >Engineering</a
-                    >
-                  </li>
-                </ul>
-              </div> -->
               <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
                 <a
                   class="hover:text-gray-100 transition duration-150 ease-in-out"
